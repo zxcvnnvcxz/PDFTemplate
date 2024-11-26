@@ -6,7 +6,6 @@ pdf.set_auto_page_break(auto=False, margin=0)
 
 df = pd.read_csv("topics.csv")
 
-
 for index, row in df.iterrows():
     pdf.add_page()
 
